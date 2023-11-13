@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#videoBox.in .close-container {
+	display: none;
+}
+
+#videoBox.out .close-container {
+	position: relative;
+	z-index: 1000;
+	margin-bottom: 18px;
+}
+
+.close {
+	font-size: 16px;
+	color: #4e4e4e;
+	font-weight: normal;
+	opacity: .8;
+	text-shadow: none;
+}
+
+#videoBox.out {
+	position: fixed;
+	bottom: 0;
+	padding: 6px;
+	right: 0;
+	width: 420px;
+	z-index: 999;
+	animation: an 0.5s;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+	background: #d7c76b;
+	border-width: 4px;
+}
+
+#videoBox.in { animation: ac 1s; }
+
+#videoBox.out + .spacer {
+    width: 100%;
+    padding-bottom: 57.5%;
+}
+
+@media only screen and (max-width: 540px) {
+	#videoBox.out {
+		display: none;
+	}
+}

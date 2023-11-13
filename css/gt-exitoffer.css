@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Version 1.0 May 9, 2018 */
+
+
+.second-chance-modal {
+	background-image: -moz-linear-gradient( -90deg, rgb(251,228,103) 0%, rgb(247,209,66) 43%, rgb(243,190,28) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(251,228,103) 0%, rgb(247,209,66) 43%, rgb(243,190,28) 100%);
+	background-image: -ms-linear-gradient( -90deg, rgb(251,228,103) 0%, rgb(247,209,66) 43%, rgb(243,190,28) 100%);
+	border: solid #801313 4px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.second-chance-modal h3 {
+	font-size: 54px;
+	margin: 0;
+}
+
+.second-chance-modal h4 {
+	font-size: 30px;
+	color: #000000;
+}
+
+.second-chance-modal p {
+	margin-bottom: 0;
+}
+
+.second-chance-modal button {
+	width: 80% !important;
+	text-align: center;
+	padding: 6px 12px;
+	border-radius: 4px;
+	box-shadow: none;
+    font-weight: normal;
+	text-transform: none;
+}
+
+.second-chance-modal button:hover {
+	border: 1px #000000 solid !important;
+}
+
+button.second-yes {
+	background: #237d2d;
+	font-size: 22px;
+}
+
+button.second-yes:hover, button.second-yes:active, button.second-yes:focus {
+	background: #216329 !important;
+	color: #ffffff;
+	font-size: 22px;
+	border: 1px #000000 solid !important;
+	width: 80% !important;
+	padding: 6px 12px;
+	border-radius: 4px;
+	box-shadow: none;
+    font-weight: normal;
+	text-transform: none;
+}
+
+button.second-no {
+	background: #efefef;
+	color: #777777;
+	border-color: #777777;
+}
+
+button.second-no:hover, button.second-no:active, button.second-no:focus {
+	background: #dfdfdf;
+	color: #777777;
+	border-color: #777777 !important;
+}
